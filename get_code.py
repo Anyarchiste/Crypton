@@ -1,7 +1,7 @@
 
 def get_code_1():
     with open("Alpha.txt", "r") as f:
-       code_f = f.read()
+        code_f = f.read()
     return code_f
 
 
@@ -44,10 +44,6 @@ def get_space_code():
         spaces = f.read().split(",")
     return spaces
 
-# sys
-# sys
-# sys
-# sys
 
 def get_alpha_decrypter():
     alpha_f = []
@@ -96,4 +92,3 @@ def get_alphabet_code_decrypter():
     alpha_spaces_decrypter = get_spaces_decrypter(message_decypter)
     alpha_spaces_ponctuation_decrypter = get_ponctuation_decrypter(alpha_spaces_decrypter)
     return alpha_spaces_ponctuation_decrypter
-
